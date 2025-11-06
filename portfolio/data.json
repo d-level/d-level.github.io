@@ -139,39 +139,39 @@
 				{
 					"name": "Lyah",
 					"repositoryUrl": "https://github.com/atalantestudio/lyah",
-					"documentationUrl": "https://debaze.github.io/lyah",
+					"documentationUrl": "https://d-level.github.io/lyah",
 					"description": "A C++ SIMD mathematics library for computer graphics. It features 2D-4D vectors, 2x2-4x4 square matrices and quaternions, along with common mathematical functions. It is header-only, fully tested and documented, and can be easily integrated into other projects.",
 					"technologyIds": [26]
 				},
 				{
 					"name": "OpenGL graphics adapter",
-					"repositoryUrl": "https://github.com/debaze/OpenGLAbstraction",
+					"repositoryUrl": "https://github.com/d-level/OpenGLAbstraction",
 					"description": "An implementation of an OpenGL abstraction, designed for compatibility with other lower-level APIs.\nContains a custom function loader, enums, commands and Vulkan-like objects.\nSupports direct/indirect drawing, compute, direct/indirect dispatch, storage/uniform buffers, 2D texture and texture views, blending, depth-testing, line width, scissor, viewport, buffer/image copying, descriptor sets, vertex attributes. GPU synchronization with fences, texture samplers and GLSL/SPIR-V shaders.",
 					"technologyIds": [26, 27]
 				},
 				{
 					"name": "Asset builder",
-					"repositoryUrl": "https://github.com/debaze/AssetBuilder",
+					"repositoryUrl": "https://github.com/d-level/AssetBuilder",
 					"description": "A copy of the asset builder source from the game engine I'm writing.",
 					"technologyIds": [26]
 				},
 				{
 					"name": "FBX parser",
-					"repositoryUrl": "https://github.com/debaze/FBXParser",
+					"repositoryUrl": "https://github.com/d-level/FBXParser",
 					"description": "A copy of the FBX parser I wrote for my game engine. The DEFLATE decompression script is not included.",
 					"technologyIds": [26]
 				},
 				{
 					"name": "Raytracer",
-					"siteUrl": "https://debaze.github.io/webgpu_raytracer",
-					"repositoryUrl": "https://github.com/debaze/webgpu_raytracer",
+					"siteUrl": "https://d-level.github.io/webgpu_raytracer",
+					"repositoryUrl": "https://github.com/d-level/webgpu_raytracer",
 					"description": "In-browser raytracing demo.",
 					"technologyIds": [29]
 				},
 				{
 					"name": "GJK",
-					"siteUrl": "https://debaze.github.io/gjk",
-					"repositoryUrl": "https://github.com/debaze/gjk",
+					"siteUrl": "https://d-level.github.io/gjk",
+					"repositoryUrl": "https://github.com/d-level/gjk",
 					"description": "Visualisation de collisions 2D en continu avec les algorithmes Gilbert-Johnson-Keerthi et Bilateral Advancement.",
 					"technologyIds": [12]
 				}
@@ -325,8 +325,8 @@
 			"projects": [
 				{
 					"name": "Sunpower",
-					"siteUrl": "https://debaze.github.io/Sunpower",
-					"repositoryUrl": "https://github.com/debaze/Sunpower",
+					"siteUrl": "https://d-level.github.io/Sunpower",
+					"repositoryUrl": "https://github.com/d-level/Sunpower",
 					"description": "Site vitrine pour un constructeur fictif d'ombrières solaires.",
 					"technologyIds": [19, 12]
 				},
@@ -338,19 +338,19 @@
 				},
 				{
 					"name": "Atlas",
-					"repositoryUrl": "https://github.com/debaze/Atlas",
+					"repositoryUrl": "https://github.com/d-level/Atlas",
 					"description": "Agence web fictive.",
 					"technologyIds": [10]
 				},
 				{
 					"name": "Yellow",
-					"repositoryUrl": "https://github.com/debaze/Yellow",
+					"repositoryUrl": "https://github.com/d-level/Yellow",
 					"description": "Boutique de mangas en ligne.",
 					"technologyIds": [19, 12, 0, 21]
 				},
 				{
 					"name": "Meno",
-					"repositoryUrl": "https://github.com/debaze/Meno",
+					"repositoryUrl": "https://github.com/d-level/Meno",
 					"description": "Application web et mobile de prise de notes.",
 					"technologyIds": [11, 8]
 				}
@@ -363,20 +363,20 @@
 			"projects": [
 				{
 					"name": "Fichet Propreté",
-					"siteUrl": "https://debaze.github.io/FichetProprete",
-					"repositoryUrl": "https://github.com/debaze/FichetProprete",
+					"siteUrl": "https://d-level.github.io/FichetProprete",
+					"repositoryUrl": "https://github.com/d-level/FichetProprete",
 					"description": "Nettoyage de vitres et bureaux.",
 					"technologyIds": [19, 12]
 				},
 				{
 					"name": "La Brasserie des Evêques",
-					"repositoryUrl": "https://github.com/debaze/LaBrasserieDesEveques",
+					"repositoryUrl": "https://github.com/d-level/LaBrasserieDesEveques",
 					"description": "Refonte du site vitrine de la Brasserie à Villeneuve-lès-Maguelone.",
 					"technologyIds": [19, 12, 13, 21]
 				},
 				{
 					"name": "manon-bouraud.fr",
-					"repositoryUrl": "https://github.com/debaze/manon-bouraud.fr",
+					"repositoryUrl": "https://github.com/d-level/manon-bouraud.fr",
 					"description": "Site vitrine et espace administratif pour un coach en soutien sportif.",
 					"technologyIds": [0]
 				}
@@ -387,15 +387,15 @@
 			"projects": [
 				{
 					"name": "GraphPDF",
-					"siteUrl": "https://debaze.github.io/graphpdf",
-					"repositoryUrl": "https://github.com/debaze/graphpdf",
+					"siteUrl": "https://d-level.github.io/graphpdf",
+					"repositoryUrl": "https://github.com/d-level/graphpdf",
 					"description": "Génération de graphiques pour PDF et pages statiques.",
 					"technologyIds": [12]
 				},
 				{
 					"name": "Raven",
-					"siteUrl": "https://github.com/debaze/raven/wiki/Raven-API-Documentation",
-					"repositoryUrl": "https://github.com/debaze/raven",
+					"siteUrl": "https://github.com/d-level/raven/wiki/Raven-API-Documentation",
+					"repositoryUrl": "https://github.com/d-level/raven",
 					"description": "Interfaces utilisateur graphiques 2D avec WebGL.",
 					"technologyIds": [22]
 				},
@@ -417,15 +417,15 @@
 			"projects": [
 				{
 					"name": "Quiver",
-					"siteUrl": "https://debaze.github.io/Quiver",
-					"repositoryUrl": "https://github.com/debaze/Quiver",
+					"siteUrl": "https://d-level.github.io/Quiver",
+					"repositoryUrl": "https://github.com/d-level/Quiver",
 					"description": "Court rogue-like en solo.",
 					"technologyIds": [19, 12]
 				},
 				{
 					"name": "L'attrape-cœurs",
-					"siteUrl": "https://debaze.github.io/lattrapecoeurs",
-					"repositoryUrl": "https://github.com/debaze/lattrapecoeurs",
+					"siteUrl": "https://d-level.github.io/lattrapecoeurs",
+					"repositoryUrl": "https://github.com/d-level/lattrapecoeurs",
 					"description": "Présentation en 3D du livre de J.D. Salinger.",
 					"technologyIds": [19, 12]
 				}

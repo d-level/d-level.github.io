@@ -1,5 +1,5 @@
 For my new project I needed to render an UI composed of rectangles. After watching this [talk](https://www.youtube.com/watch?v=Z1qyvQsjK5Y) from Casey Muratori I decided to try writing an immediate-mode renderer.  
-I had made a [retained-mode GUI library](https://github.com/debaze/raven) before, but I struggled to implement some of the features because of the complexity that comes with the retained fashion. In comparison, immediate-mode allowed me to spend more time getting the look of the components right. And so one day I decided to implement rounded corners.
+I had made a [retained-mode GUI library](https://github.com/d-level/raven) before, but I struggled to implement some of the features because of the complexity that comes with the retained fashion. In comparison, immediate-mode allowed me to spend more time getting the look of the components right. And so one day I decided to implement rounded corners.
 
 Let's suppose we have a simple renderer which draws axis-aligned rectangles using instancing. Assuming that we're using the top-left corner of the screen as the origin, each rectangle is defined by the position of its top-left corner and its size, both in pixels.  
 We also want our rectangles to have rounded corners. The radius is the same for all 4 corners of a rectangle, thus we can have a single value per instance.

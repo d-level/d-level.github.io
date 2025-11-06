@@ -187,7 +187,7 @@ quat_ref operator *(quat_ref a, quat_ref b) {
 }
 ```
 
-On MSVC with `/O2`, `/Ob2`, `/Oi`, `/Ot`, `/arch:SSE2`, `/fp:fast`, `/Gv`, 100 million iterations and a batch size of 10, the results were $\approx$ 70ms with the hardware [listed here](https://debaze.github.io/setup) and $\approx$ 103ms with an Intel Core i5-12450H on an HP Victus (laptop).  
+On MSVC with `/O2`, `/Ob2`, `/Oi`, `/Ot`, `/arch:SSE2`, `/fp:fast`, `/Gv`, 100 million iterations and a batch size of 10, the results were $\approx$ 70ms with the hardware [listed here](https://d-level.github.io/setup) and $\approx$ 103ms with an Intel Core i5-12450H on an HP Victus (laptop).  
 The reference respectively took $\approx$ 197ms and $\approx$ 280ms on the same machines. That's nearly a 2.8x speedup over the scalar variant 🎉
 
 ## Conclusion
