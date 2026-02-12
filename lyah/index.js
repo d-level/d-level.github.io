@@ -57,7 +57,7 @@ function getMethodScore(method) {
  * @param {FilterScore} a
  * @param {FilterScore} b
  */
-function compareMethodScores(a, b) {
+function compareFilterScores(a, b) {
 	if (a.score < b.score) {
 		return 1;
 	}
@@ -100,7 +100,7 @@ function getFilteredMethods() {
 		filterScores.push(filterScore);
 	}
 
-	const sortedFilterScores = filterScores.sort(compareMethodScores);
+	const sortedFilterScores = filterScores.sort(compareFilterScores);
 
 	if (sortedFilterScores.length === 1) {
 		methodCount.textContent = "1 method found";
@@ -148,7 +148,7 @@ function getFilteredMethods() {
 		 */
 		const methodSince = methodListItem.querySelector(".method-since");
 
-		methodSignature.innerHTML = highlightMethodSignature(formatMethodSignature(method.signature));
+		methodSignature.innerHTML = highlightSignature(formatMethodSignature(method.signature));
 		methodDescription.innerHTML = formatMethodDescription(method.description);
 		methodSourceLink.href = method.sourceUrl;
 
@@ -281,7 +281,7 @@ function formatMethodSignature(signature) {
 /**
  * @param {String} signature
  */
-function highlightMethodSignature(signature) {
+function highlightSignature(signature) {
 	let highlightedSignature = signature;
 
 	// Highlight function names.
