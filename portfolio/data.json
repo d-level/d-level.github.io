@@ -129,6 +129,11 @@
 			"id": 30,
 			"name": "Google Charts",
 			"iconSrc": "assets/images/googlecharts.png"
+		},
+		{
+			"id": 31,
+			"name": "DirectX 12",
+			"iconSrc": "assets/images/directx12.jpg"
 		}
 	],
 	"_3dExperiences": [
@@ -136,6 +141,13 @@
 			"name": "Game engine (2022 — present)",
 			"description": "Personal project",
 			"projects": [
+				{
+					"name": "Scroll",
+					"repositoryUrl": "https://github.com/atalantestudio/scroll",
+					"documentationUrl": "https://atalantestudio.github.io/scroll",
+					"description": "A fast and lightweight C++ library that provides pretty console and file logging.",
+					"technologyIds": [26]
+				},
 				{
 					"name": "Lyah",
 					"repositoryUrl": "https://github.com/atalantestudio/lyah",
@@ -406,9 +418,15 @@
 					"technologyIds": [26]
 				},
 				{
+					"name": "Scroll",
+					"repositoryUrl": "https://github.com/atalantestudio/scroll",
+					"description": "Librairie de logging.",
+					"technologyIds": [26]
+				},
+				{
 					"name": "Project A",
 					"description": "Moteur de jeu 3D en cours de développement avec composants graphique, physique et audio.",
-					"technologyIds": [26, 25, 27, 28]
+					"technologyIds": [26, 25, 27, 28, 31]
 				}
 			]
 		},
