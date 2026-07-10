@@ -184,7 +184,7 @@
 					"name": "GJK",
 					"siteUrl": "https://d-level.github.io/gjk",
 					"repositoryUrl": "https://github.com/d-level/gjk",
-					"description": "Visualisation de collisions 2D en continu avec les algorithmes Gilbert-Johnson-Keerthi et Bilateral Advancement.",
+					"description": "2D continuous collision visualization with the GJK and Bilateral Advancement algorithms.",
 					"technologyIds": [12]
 				}
 			]
@@ -192,7 +192,7 @@
 	],
 	"professionalExperiences": [
 		{
-			"name": "Keole et Gazoline (14/09/2021 — 30/09/2024)",
+			"name": "Keole (14/09/2021 — 30/09/2024)",
 			"description": "Agence web à Saint-Jean-de-Védas",
 			"link": "https://studiokg.fr",
 			"projects": [
