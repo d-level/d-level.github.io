@@ -136,63 +136,26 @@
 			"iconSrc": "assets/images/directx12.jpg"
 		}
 	],
-	"_3dExperiences": [
-		{
-			"name": "Game engine (2022 — present)",
-			"description": "Personal project",
-			"projects": [
-				{
-					"name": "Scroll",
-					"repositoryUrl": "https://github.com/atalantestudio/scroll",
-					"documentationUrl": "https://atalantestudio.github.io/scroll",
-					"description": "A fast and lightweight C++ library that provides pretty console and file logging.",
-					"technologyIds": [26]
-				},
-				{
-					"name": "Lyah",
-					"repositoryUrl": "https://github.com/atalantestudio/lyah",
-					"documentationUrl": "https://d-level.github.io/lyah",
-					"description": "A C++ SIMD mathematics library for computer graphics. It features 2D-4D vectors, 2x2-4x4 square matrices and quaternions, along with common mathematical functions. It is header-only, fully tested and documented, and can be easily integrated into other projects.",
-					"technologyIds": [26]
-				},
-				{
-					"name": "OpenGL graphics adapter",
-					"repositoryUrl": "https://github.com/d-level/OpenGLAbstraction",
-					"description": "An implementation of an OpenGL abstraction, designed for compatibility with other lower-level APIs.\nContains a custom function loader, enums, commands and Vulkan-like objects.\nSupports direct/indirect drawing, compute, direct/indirect dispatch, storage/uniform buffers, 2D texture and texture views, blending, depth-testing, line width, scissor, viewport, buffer/image copying, descriptor sets, vertex attributes. GPU synchronization with fences, texture samplers and GLSL/SPIR-V shaders.",
-					"technologyIds": [26, 27]
-				},
-				{
-					"name": "Asset builder",
-					"repositoryUrl": "https://github.com/d-level/AssetBuilder",
-					"description": "A copy of the asset builder source from the game engine I'm writing.",
-					"technologyIds": [26]
-				},
-				{
-					"name": "FBX parser",
-					"repositoryUrl": "https://github.com/d-level/FBXParser",
-					"description": "A copy of the FBX parser I wrote for my game engine. The DEFLATE decompression script is not included.",
-					"technologyIds": [26]
-				},
-				{
-					"name": "Raytracer",
-					"siteUrl": "https://d-level.github.io/webgpu_raytracer",
-					"repositoryUrl": "https://github.com/d-level/webgpu_raytracer",
-					"description": "In-browser raytracing demo.",
-					"technologyIds": [29]
-				},
-				{
-					"name": "GJK",
-					"siteUrl": "https://d-level.github.io/gjk",
-					"repositoryUrl": "https://github.com/d-level/gjk",
-					"description": "2D continuous collision visualization with the GJK and Bilateral Advancement algorithms.",
-					"technologyIds": [12]
-				}
-			]
-		}
-	],
 	"professionalExperiences": [
 		{
-			"name": "Keole (14/09/2021 — 30/09/2024)",
+			"name": "Quest Education Group (CDD, 02/2026 — 30/04/2026)",
+			"description": "Campus de jeux vidéo à Lyon",
+			"link": "https://gamingcampus.fr/campus/lyon.html",
+			"projects": [
+				{
+					"name": "Formateur/intervenant — moteur de jeu custom",
+					"description": "Accompagnement d'étudiants en bachelor dans le développement d'un moteur de jeu en C++ en vue de leur projet de fin d'études.",
+					"missions": [
+						"Partage de techniques, articles et liens utiles",
+						"Tests, revues de codes, commentaires de PR",
+						"Participation en tant que Jury à la soutenance de fin d'année"
+					],
+					"technologyIds": [26]
+				}
+			]
+		},
+		{
+			"name": "Keole (alternance, 14/09/2021 — 30/09/2024)",
 			"description": "Agence web à Saint-Jean-de-Védas",
 			"link": "https://studiokg.fr",
 			"projects": [
@@ -414,7 +377,7 @@
 				{
 					"name": "Lyah",
 					"repositoryUrl": "https://github.com/atalantestudio/lyah",
-					"description": "Librairie de mathématiques vectorielles accélérées avec les jeux d'instruction SIMD. Lyah met à disposition des vecteurs 2D/3D/4D, des matrices carrées 2x2/3x3/4x4 et des quaternions, en plus de fonctions mathématiques communes. Elle est header-only, entièrement testée et documentée, et est facilement intégrable dans des projets existants.",
+					"description": "Librairie de mathématiques vectorielles accélérées avec les jeux d'instruction SIMD. Lyah met à disposition des vecteurs 2D/3D/4D, des matrices carrées 2x2/3x3/4x4 et des quaternions, en plus de fonctions mathématiques communes. La librairie est header-only, entièrement testée et documentée, et est facilement intégrable dans des projets existants.",
 					"technologyIds": [26]
 				},
 				{
@@ -422,17 +385,19 @@
 					"repositoryUrl": "https://github.com/atalantestudio/scroll",
 					"description": "Librairie de logging.",
 					"technologyIds": [26]
-				},
-				{
-					"name": "Project A",
-					"description": "Moteur de jeu 3D en cours de développement avec composants graphique, physique et audio.",
-					"technologyIds": [26, 25, 27, 28, 31]
 				}
 			]
 		},
 		{
 			"name": "Divers",
 			"projects": [
+				{
+					"name": "Raytracer",
+					"siteUrl": "https://d-level.github.io/webgpu_raytracer",
+					"repositoryUrl": "https://github.com/d-level/webgpu_raytracer",
+					"description": "Raytracer en ligne.",
+					"technologyIds": [29]
+				},
 				{
 					"name": "Quiver",
 					"siteUrl": "https://d-level.github.io/Quiver",

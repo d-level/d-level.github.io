@@ -1,11 +1,11 @@
 h1 {
-	margin: 0;
+	margin: 28px 0;
 	font-size: 1.75rem;
 }
 
 h2 {
 	margin: 0;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
 
 h3 {
@@ -38,7 +38,11 @@ a.external:hover {
 		font-size: 2.0rem;
 	}
 
-	h2, h3 {
+	h2 {
 		font-size: 1.65rem;
+	}
+
+	h3 {
+		font-size: 1.35rem;
 	}
 }

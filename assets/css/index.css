@@ -5,6 +5,9 @@
 
 @import url("text.css");
 
+@import url("card-list.css");
+@import url("image-list.css");
+
 :root {
 	--primary: #001b2e;
 	--secondary: #545163;
@@ -44,7 +47,12 @@ body {
 
 article {
 	flex-grow: 1;
-	margin: 16px 0 32px 0;
+}
+
+hr {
+	margin: 16px 0;
+	border: none;
+	border-top: 1px solid var(--tertiary);
 }
 
 ul {
@@ -55,9 +63,5 @@ ul {
 	.container {
 		max-width: 800px;
 		margin: 0 auto;
-	}
-
-	article {
-		margin-top: 32px;
 	}
 }

@@ -1,4 +1,6 @@
-article .container .date {
+article .container > .date {
+	display: block;
+	margin-top: 16px;
 	font-size: 1rem;
 	font-weight: bold;
 }
@@ -19,12 +21,6 @@ blockquote {
 	margin-left: 0;
 	padding-left: 8px;
 	border-left: 4px solid var(--tertiary);
-}
-
-hr {
-	margin: 16px 0;
-	border: none;
-	border-top: 1px solid var(--tertiary);
 }
 
 code {
@@ -54,7 +50,7 @@ figcaption {
 	width: 100%;
 	margin: 0 auto;
 	margin-top: -12px;
-	color: var(--text-hover);
+	color: var(--secondary);
 	text-align: right;
 	font-style: italic;
 	font-size: 0.9rem;

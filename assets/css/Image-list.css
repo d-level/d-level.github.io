@@ -1,0 +1,26 @@
+.image-list {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 12px;
+	column-gap: 4px;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.image-list li img {
+	display: block;
+	width: 100%;
+}
+
+.image-legend {
+	color: var(--secondary);
+	font-style: italic;
+}
+
+@media screen and (min-width: 800px) {
+	.image-list li img {
+		width: auto;
+		max-width: 100%;
+		max-height: 200px;
+	}
+}

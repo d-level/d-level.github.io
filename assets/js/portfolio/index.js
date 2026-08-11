@@ -3,7 +3,6 @@ export {};
 /**
  * @typedef {Object} Data
  * @property {Technology[]} technologies
- * @property {Experience[]} _3dExperiences
  * @property {Experience[]} professionalExperiences
  * @property {Experience[]} personalExperiences
  */
@@ -51,11 +50,6 @@ const template = document.body.querySelector("#data-template");
 /**
  * @type {HTMLDivElement}
  */
-const _3dExperiencePlaceholder = document.body.querySelector("#_3d-experience-placeholder");
-
-/**
- * @type {HTMLDivElement}
- */
 const professionalExperiencePlaceholder = document.body.querySelector("#professional-experience-placeholder");
 
 /**
@@ -63,18 +57,6 @@ const professionalExperiencePlaceholder = document.body.querySelector("#professi
  */
 const personalExperiencePlaceholder = document.body.querySelector("#personal-experience-placeholder");
 
-// 3D experience
-{
-	const _3dExperienceFragment = document.createDocumentFragment();
-
-	for (const experience of dataJson._3dExperiences) {
-		const experienceElement = getExperienceElement(experience);
-
-		_3dExperienceFragment.appendChild(experienceElement);
-	}
-
-	_3dExperiencePlaceholder.replaceWith(_3dExperienceFragment);
-}
 
 // Professional experiences
 {
